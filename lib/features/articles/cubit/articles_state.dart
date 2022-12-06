@@ -11,11 +11,11 @@ part of 'articles_cubit.dart';
 // part 'articles_state.g.dart';
 
 @freezed
-class ArticleState with _$ArticleState {
-  const factory ArticleState({
+class ArticlesState with _$ArticlesState {
+  const factory ArticlesState({
     @Default([]) List<ArticleModel> results,
     @Default(Status.initial) Status status,
     String? errorMessage,
-  }) = _ArticleState;
+  }) = _ArticlesState;
 }
 
