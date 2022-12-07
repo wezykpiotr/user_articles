@@ -3,6 +3,7 @@ import 'package:injectable/injectable.dart';
 import 'package:user_articles/domain/models/author_model.dart';
 import 'package:retrofit/retrofit.dart';
 part 'authors_remote_data_source.g.dart';
+
 @injectable
 @RestApi()
 abstract class AuthorsRemoteRetroFitDataSource {
